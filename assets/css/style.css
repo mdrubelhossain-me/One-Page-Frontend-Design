@@ -1,0 +1,571 @@
+.loader{
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-name{
+	font-weight: bold;
+	font-size: 25px;
+}
+.navbar{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: white!important;
+	padding: 0px 15px!important;
+}
+.navbar-nav .nav-item .nav-link .login-button{
+	border-style: none;
+	color: white;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.navbar-nav .nav-item .nav-link .login-button:hover{
+	background: #3275CC;
+	transition: .4s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link.active{
+	border-bottom: 2px solid #FFA200;
+}
+
+
+/*---------Banner Section Start---------*/
+.banner-section{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	margin-top: 50px;
+}
+.banner-section .content{
+	align-items: center;
+	color: white;
+
+}
+.banner-section a{
+	color: white;
+	text-decoration: none;
+}
+.banner-section a img{
+	width: 50px;
+	margin-right: 8px;
+}
+.banner-section .wave1-banner{
+	width: 100%!important;
+}
+.banner-section .content .learn-more-button{
+	border-style: none;
+	padding: 10px;
+	color: white;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.banner-section .content .learn-more-button:hover{
+	background: #073268;
+	transition: .4s ease-in-out;
+}
+
+
+
+/*-------------Service Section Start-----------*/
+.service-section{
+	padding: 90px!important;
+
+}
+.service-section .service-topic{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #073268;
+	padding-bottom: 50px;
+
+}
+
+.service-section img{
+	height: 53px;
+}
+.service-section .content{
+	text-align: center;
+}	
+
+.service-section .content .service-underline{
+	height: 3px;
+	width: 130px!important;
+	border-style: solid #7b1798;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	margin: auto;
+	margin-top: -50px!important;
+}
+.service-section .content .card{
+	border-style: none;
+	background: white;
+	width: 70%;
+	margin-top: 3px;
+	margin: auto;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.service-section .content .card .service-details{
+	text-align: justify;
+	padding: 6px 7px 0 7px;
+}
+.service-section .content .card .service-title{
+	font-size: 20px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.service-section .content .service-icon{
+	font-size: 40px!important;
+	width: 72px;
+	height: 70px;
+	color: white;
+	margin: auto;
+	border-radius: 100%;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+}
+.service-section  .service-button{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	border-style: none;
+	padding: 8px;
+	width: 140px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 20px;
+	transition: .6s;
+}
+
+.service-section  .service-button:hover{
+	background: #073268;
+	transition: .4s ease-in-out;
+	font-size: 14px;	
+}
+
+
+
+/*-------------About Section Start-----------*/
+.about-section{
+	background: #F6FAFF;
+	padding: 90px!important;
+}
+.about-section .about-topic{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #073268;
+	padding-bottom: 50px;
+}
+.about-section .title{
+	text-align: center;
+}
+.about-section .title .about-underline{
+	height: 3px;
+	width: 130px!important;
+	border-style: solid #7b1798;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	margin: auto;
+	margin-top: -50px!important;
+}
+.about-section .content li{
+	padding: 3px;
+}
+.about-section .content img{
+	height: 350px;
+}
+
+
+/*-------------Testimonial Section Start-----------*/
+.testimonial-section{
+	padding: 90px!important;
+}
+.testimonial-section .testimonial-topic{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: #073268;
+}
+.testimonial-section .title{
+	text-align: center;
+	color: #073268;
+}
+.testimonial-section .title .testimonial-underline{
+	height: 3px;
+	width: 130px!important;
+	border-style: solid #7b1798;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	margin: auto; 
+}
+.client-section{
+	justify-content: center;
+	margin-top: 40px!important;
+}
+.client-section .client-info{
+	display: flex;
+}
+.client-section .client-info p{
+	margin-left: 15px;
+	padding-top: 8px;
+}
+.client-section .client-content img{
+	height: 90px;
+	width: 100px!important;
+	border-radius: 100%;
+	padding-top: 8px;
+}
+.client-section .client-content{
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-color: rgb(0,212,255) linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+
+	background-color: white;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.testimonial-section .client-section .client-content{
+
+}
+
+
+
+/*-------------Social Link Section Start-----------*/
+.socialLink-section{
+	padding: 90px!important;
+}
+.socialLink-section .socialLink-topic{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #073268;
+	font-size: 40px;
+}
+.socialLink-section .title{
+	text-align: center;
+}
+.socialLink-section .title .socialLink-underline{
+	height: 3px;
+	width: 130px!important;
+	border-style: solid #7b1798;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	margin: auto; 
+}
+.socialLink-section{
+	background-color: #FAFCFD;
+}
+
+.socialLink-section .socialLink-icon img{
+	width: 55px;
+	padding: 5px;
+}
+.socialLink-section .socialLink-icon a img:hover{
+	transform: translateY(-12px);
+	transition: .6s;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+
+
+/*---------Contact Form Start Here.........*/
+.contact-form label{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #073268;
+}
+.contact-form button{
+	font-size: 20px;
+	color: white;
+	width: 250px;
+	height: 50px;
+	float: right;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+}
+.contact-form button:hover{
+	background: #073268;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	font-size: 15px;
+	transition: .5s;
+	border-style: none;
+}
+
+
+/*-------------Footer Section Start-----------*/
+.footer-section{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+}
+.footer-section .footer-box{
+	color: white;
+	text-align: justify;
+}
+.footer-section .footer-box .contact-content{
+	padding-top: 10px;
+}
+.footer-section .footer-box .contact-content .bi{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	padding: 8px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.footer-section .footer-box .subscribe-content{
+	padding-top: 10px;
+}
+.footer-section .footer-box .subscribe-content .subscribe-button{
+	margin-top: 10px;
+	border-style: none;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	padding: 8px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	color: white;
+
+}
+.footer-section .footer-box .subscribe-content .subscribe-button:hover{
+	background: #073268;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	transform: scale(1.1);
+	transition: .5s;
+	border-style: none;
+}
+
+.back-to-top i{
+	font-size: 38px;
+	color: white;
+	float: right!important;
+}
+
+
+
+
+/*------------Login Section Start-----------*/
+.login-section{
+	width: 100%;
+	padding-left: 30px;
+	height: 350px;
+	margin-top: 20px!important;
+	border-radius: 10px;
+	position: relative;
+}
+.login-section form{
+	background: red;
+	width: 250px;
+	text-align: center;
+	justify-content: center;
+	margin-left: 80px;
+	height: 350px;
+	position: relative;
+	background-color: transparent;
+	border-radius: 15px;
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+}
+.login-section h2{
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #FFA200;
+}
+.login-section input{
+	height: 40px;
+	width: 90%;
+	margin-top:10px;
+	border-style: none;
+	border-bottom: 1px solid;
+	margin-top: 20px;
+	background: transparent;
+	color: white;
+}
+.login-section input:focus{
+	outline: none
+}
+::placeholder{
+	color: white;
+	font-family: arial;
+}
+.login-section .button{
+	padding: 15px 20px 10px 0;
+}
+.login-section button{
+	padding: 8px;
+	border-style: none;
+	margin: 2px;
+}
+.login-section button:hover{
+	background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(43,131,184,1) 0%, rgba(3,34,105,1) 100%, rgba(3,30,105,1) 100%, rgba(3,12,105,1) 100%, rgba(3,58,105,0.9500175070028011) 100%);
+	transition: .5s ease;
+	color: white;
+}
+.login-section .forgotten-pass{
+	position: absolute;
+	text-align: center;
+	margin-left: -35px!important;
+	color: white;
+	margin-top: 266px!important;
+	text-decoration: none;
+	
+}
+.login-section .forgotten-pass:hover{
+	color: white;
+	text-decoration: underline;
+}
+.login-section .icon{
+	position: absolute;
+	text-align: center;
+	margin-left: -35px!important;
+	color: white;
+	margin-top: 290px!important;
+	text-decoration: none;
+	margin-top: 275px;
+}
+.login-section .icon a:hover{
+	font-size: 17px;
+	color: #FFA200;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+}
+
+
+
+
+
+@media only screen and (min-width: 328px) {
+	.login-section{
+		width: 90%;
+	}
+	.login-section form{
+		margin: 0;
+		left: 0;
+	}
+}
+@media only screen and (min-width: 458px) {
+	.login-section{
+		width: 90%;
+	}
+	.login-section .forgotten-pass{
+		position: absolute;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+
+	}
+	.login-section .icon{
+		position: absolute;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+
+	}
+	.login-section form{
+		margin-left: 80px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.login-section{
+		width: 90%;
+	}
+	.login-section .forgotten-pass{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:50px;
+		text-decoration: none;
+
+	}
+	.login-section .icon{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:50px;
+		text-decoration: none;
+
+	}
+	.login-section form{
+		margin-left: 80px;
+	}
+}
+@media only screen and (min-width: 820px) {
+	.login-section{
+		width: 100%;
+	}
+	.login-section .forgotten-pass{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:40px!important;
+		text-decoration: none;
+
+	}
+	.login-section .icon{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:40px!important;
+		text-decoration: none;
+
+	}
+	.login-section form{
+		margin-left: 80px;
+	}
+}
+
+@media only screen and (min-width: 912px) {
+	.login-section{
+		width: 100%;
+	}
+	.login-section .forgotten-pass{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:40px!important;
+		text-decoration: none;
+
+	}
+	.login-section .icon{
+		position: absolute;
+		text-align: center;
+		color: white;
+		margin-left:40px!important;
+		text-decoration: none;
+
+	}
+	.login-section form{
+		margin-left: 80px;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+	.login-section{
+		width: 90%;
+	}
+	.login-section .forgotten-pass{
+		position: absolute;
+		text-align: center;
+		margin-left: -35px!important;
+		color: white;
+		margin-top: 250px;
+		text-decoration: none;
+		
+	}
+	.login-section .icon{
+		position: absolute;
+		text-align: center;
+		margin-left: -35px!important;
+		color: white;
+		margin-top: 250px;
+		text-decoration: none;
+		margin-top: 275px;
+	}
+	.login-section form{
+		margin-left: 80px;
+	}
+}
+
